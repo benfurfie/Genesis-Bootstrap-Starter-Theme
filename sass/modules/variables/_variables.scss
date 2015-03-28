@@ -1,0 +1,52 @@
+/* Variables
+---------------------------------------------------------------------------------------------------- */
+
+/* Fonts
+--------------------------------------------- */
+
+$header-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/* Sizes
+--------------------------------------------- */
+
+$h1-size: 36px;
+$h2-size: 30px;
+$h3-size: 24px;
+$h4-size: 20px;
+$h5-size: 18px;
+$h6-size: 16px;
+$p-size: 16px;
+
+/* Colors
+--------------------------------------------- */
+
+$background-color: #fff;
+
+$header-copy: #333;
+$body-copy: #333;
+$links: #337AB7;
+$links-hover: orange;
+
+$dark-grey: #333;
+$med-grey: #666;
+$light-grey: #d8d8d8;
+
+/* Header and Navigation
+--------------------------------------------- */
+
+$base-spacing: 1.5;
+$base-accent-color: #477DCA !default;
+$header-background: desaturate(darken($base-accent-color, 20), 30);
+$header-background-primary: desaturate(darken($base-accent-color, 20), 30);
+$header-background-secondary: #fff;
+$header-color: #fff;
+$header-link-color: transparentize($header-color, .6);
+
+$site-logo-height: 100px;
+
+$sub-menu-font-size: 14px;
+$sub-menu-width: 250px;
+
+$title-area-width: 30%;
+$widget-area-width: 70%;

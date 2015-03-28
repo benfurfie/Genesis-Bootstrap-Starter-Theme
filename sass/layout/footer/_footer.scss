@@ -1,0 +1,75 @@
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+	background-color: $dark-grey;
+	color: $med-grey;
+	clear: both;
+	padding: 40px 0 16px;
+	padding: 4rem 0 1.6rem;
+	a {
+		border-bottom: 1px solid #666;
+		color: $med-grey;
+		&:hover {
+			color: #ddd;
+		}
+	}
+	li {
+		list-style-type: none;
+		margin-bottom: 6px;
+		margin-bottom: 0.6rem;
+		word-wrap: break-word;
+	}
+	.widget {
+		margin-bottom: 24px;
+		margin-bottom: 2.4rem;
+	}
+	.widget-title {
+		color: #fff;
+	}
+	.search-form input:focus {
+		border: 1px solid #ddd;
+	}
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	width: 33.33%;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	padding-right: 40px;
+	padding-right: 4rem;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+	background-color: #fff;
+	color: $med-grey;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 40px 0;
+	padding: 4rem 0;
+	text-align: center;
+	a {
+		border-bottom: 1px solid #ddd;
+	}
+	p {
+		margin-bottom: 0;
+	}
+}
